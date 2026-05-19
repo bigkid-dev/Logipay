@@ -18,7 +18,7 @@ import Support from "./pages/Support";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Contact from "./pages/Contact";
-import DocsPage from "./pages/docs";
+import DocsPage from "./pages/Docs";
 import ProductPage from "./pages/Product";
 import GetStarted from "./pages/Started";
 
