@@ -149,14 +149,14 @@ export default function Navbar() {
                   onClick={() => setOpen(false)}
                   className="btn-secondary text-center justify-center text-sm"
                 >
-                  Find Artisan
+                  Get Started
                 </Link>
                 <Link
                   to="/contact"
                   onClick={() => setOpen(false)}
                   className="btn-primary text-center justify-center text-sm"
                 >
-                  Join as Artisan
+                  Products
                 </Link>
               </div>
             </div>
