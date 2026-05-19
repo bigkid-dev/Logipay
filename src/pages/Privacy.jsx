@@ -5,7 +5,7 @@ import { Badge } from '../components/ui/index.jsx';
 const sections = [
   {
     id: 'overview', title: '1. Overview',
-    content: `Chrafty Technologies Ltd ("Chrafty", "we", "our", or "us") is committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our marketplace platform, website, and mobile applications (collectively, the "Platform"). Please read this policy carefully. If you disagree with its terms, please discontinue use of the Platform immediately. We reserve the right to make changes to this policy at any time. We will notify you of material changes by updating the date of this policy and, where appropriate, by sending you an email notification.`,
+    content: `Logipay Technologies Ltd ("Logipay", "we", "our", or "us") is committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our marketplace platform, website, and mobile applications (collectively, the "Platform"). Please read this policy carefully. If you disagree with its terms, please discontinue use of the Platform immediately. We reserve the right to make changes to this policy at any time. We will notify you of material changes by updating the date of this policy and, where appropriate, by sending you an email notification.`,
   },
   {
     id: 'collect', title: '2. Information We Collect',
@@ -25,7 +25,7 @@ const sections = [
   },
   {
     id: 'rights', title: '6. Your Rights',
-    content: `Depending on your location, you may have rights under applicable data protection laws including the Nigerian Data Protection Regulation (NDPR) and the Protection of Personal Information Act (POPIA) in South Africa. These rights may include: the right to access your personal information; the right to correct inaccurate data; the right to request deletion of your data; the right to object to processing; the right to data portability; and the right to withdraw consent. To exercise these rights, please contact our Data Protection Officer at privacy@chrafty.africa. We will respond to all requests within 30 days.`,
+    content: `Depending on your location, you may have rights under applicable data protection laws including the Nigerian Data Protection Regulation (NDPR) and the Protection of Personal Information Act (POPIA) in South Africa. These rights may include: the right to access your personal information; the right to correct inaccurate data; the right to request deletion of your data; the right to object to processing; the right to data portability; and the right to withdraw consent. To exercise these rights, please contact our Data Protection Officer at privacy@Logipay.africa. We will respond to all requests within 30 days.`,
   },
   {
     id: 'cookies', title: '7. Cookies & Tracking',
@@ -37,11 +37,11 @@ const sections = [
   },
   {
     id: 'children', title: "9. Children's Privacy",
-    content: `The Chrafty Platform is not intended for individuals under the age of 18. We do not knowingly collect personal information from minors. If we become aware that we have collected data from a person under 18 without verifiable parental consent, we will take steps to delete that information promptly. If you believe we may have collected information from a minor, please contact us immediately at privacy@chrafty.africa.`,
+    content: `The Logipay Platform is not intended for individuals under the age of 18. We do not knowingly collect personal information from minors. If we become aware that we have collected data from a person under 18 without verifiable parental consent, we will take steps to delete that information promptly. If you believe we may have collected information from a minor, please contact us immediately at privacy@Logipay.africa.`,
   },
   {
     id: 'contact', title: '10. Contact Us',
-    content: `If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact our Data Protection Officer at: Chrafty Technologies Ltd, 14 Broad Street, Lagos Island, Lagos, Nigeria. Email: privacy@chrafty.africa. Phone: +234 800 CHRAFTY. We take all privacy enquiries seriously and will respond within 5 business days.`,
+    content: `If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact our Data Protection Officer at: Logipay Technologies Ltd, 14 Broad Street, Lagos Island, Lagos, Nigeria. Email: privacy@Logipay.africa. Phone: +234 800 Logipay. We take all privacy enquiries seriously and will respond within 5 business days.`,
   },
 ];
 
@@ -50,20 +50,6 @@ export default function PrivacyPage() {
 
   return (
     <div className="page-wrapper">
-      {/* Hero */}
-      <section className="bg-brand-navy py-20 px-4 text-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-hero-pattern opacity-30" />
-        <div className="relative z-10 max-w-3xl mx-auto">
-          <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }}>
-            <Badge variant="orange" className="mb-4">Legal</Badge>
-            <h1 className="text-4xl sm:text-5xl font-display font-black text-white mb-4">Privacy Policy</h1>
-            <p className="text-slate-300 font-body">Last updated: 16 May 2026 · Effective: 1 May 2026</p>
-          </motion.div>
-        </div>
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 40" fill="none"><path d="M0 40L1440 40L1440 20C1200 40 960 0 720 10C480 20 240 40 0 20Z" fill="white" className="dark:fill-navy-900" /></svg>
-        </div>
-      </section>
 
       <section className="section-padding bg-white dark:bg-navy-900">
         <div className="container-max">

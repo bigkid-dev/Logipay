@@ -13,31 +13,6 @@ export default function SupportPage() {
   return (
     <div className="page-wrapper">
       {/* Hero with Search */}
-      <section className="bg-brand-navy relative overflow-hidden py-28 px-4">
-        <div className="absolute inset-0 bg-hero-pattern opacity-40" />
-        <div className="relative z-10 max-w-3xl mx-auto text-center">
-          <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }}>
-            <Badge variant="orange" className="mb-6">Help Center</Badge>
-            <h1 className="text-5xl sm:text-6xl font-display font-black text-white mb-6">
-              How Can We <span className="text-brand-orange">Help You?</span>
-            </h1>
-            <p className="text-slate-300 mb-8 font-body">Search our knowledge base or browse categories below.</p>
-            <div className="relative max-w-xl mx-auto">
-              <Search size={18} className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" />
-              <input
-                type="text"
-                value={query}
-                onChange={e => setQuery(e.target.value)}
-                placeholder="Search for answers... e.g. 'how do I get a refund'"
-                className="w-full pl-12 pr-4 py-4 rounded-2xl bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-brand-orange/50 focus:bg-white/15 transition-all font-body text-sm"
-              />
-            </div>
-          </motion.div>
-        </div>
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 60" fill="none"><path d="M0 60L1440 60L1440 30C1200 60 960 0 720 20C480 40 240 60 0 30Z" fill="white" className="dark:fill-navy-900" /></svg>
-        </div>
-      </section>
 
       <section className="section-padding bg-white dark:bg-navy-900">
         <div className="container-max">

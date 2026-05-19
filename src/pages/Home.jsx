@@ -234,7 +234,7 @@ export default function HomePage() {
             </h2>
             <p className="text-neutral-500 dark:text-neutral-400 text-sm leading-relaxed">
               Whether you need someone today or you're building your
-              trade business, Chrafty is built around you.
+              trade business, Logipay is built around you.
             </p>
           </div>
 
@@ -314,7 +314,7 @@ export default function HomePage() {
           </h2>
           <p className="text-neutral-500 dark:text-neutral-400 text-base
             leading-relaxed mb-10 max-w-sm">
-            Every artisan on Chrafty has been background-checked,
+            Every artisan on Logipay has been background-checked,
             skill-tested, and reviewed by real customers before
             you ever see their profile.
           </p>
@@ -413,7 +413,7 @@ export default function HomePage() {
             </h2>
             <p className="text-white/60 text-base leading-relaxed mb-10 max-w-sm">
               Stop relying on word of mouth. Join 10,000+ artisans
-              who've built real businesses on Chrafty — with verified
+              who've built real businesses on Logipay — with verified
               profiles, steady work, and on-time payments.
             </p>
             <div className="space-y-5">
@@ -526,7 +526,7 @@ export default function HomePage() {
             </h2>
             <p className="text-[#0F1A12]/70 text-base max-w-md">
               Join other Nigerians who
-              already trust Chrafty for every job around the home.
+              already trust Logipay for every job around the home.
             </p>
           </div>
           <div className="flex gap-3 shrink-0">

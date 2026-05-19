@@ -39,9 +39,9 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-2.5 mb-5">
               <div className="w-9 h-9 rounded-xl flex items-center justify-center">
-                <img src='icon.png' alt="Chrafty" className="w-6 h-6" />
+                <img src='icon.png' alt="Logipay" className="w-6 h-6" />
               </div>
-              <span className="font-display font-bold text-xl text-white tracking-tight">Chrafty</span>
+              <span className="font-display font-bold text-xl text-white tracking-tight">Logipay</span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 max-w-xs font-body">
               Nigeria's most trusted marketplace for skilled tradespeople and artisans. Connecting quality craftsmanship with people who need it, across Nigeria and South Africa.
@@ -103,7 +103,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-slate-500 text-xs font-body">
-            © {new Date().getFullYear()} Chrafty Technologies Ltd. All rights reserved.
+            © {new Date().getFullYear()} Logipay Technologies Ltd. All rights reserved.
           </p>
 
         </div>

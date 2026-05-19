@@ -1,6 +1,6 @@
-# Chrafty — Africa's Trusted Artisan Marketplace
+# Logipay — Africa's Trusted Artisan Marketplace
 
-A premium React.js landing website for **Chrafty**, a marketplace connecting clients with skilled tradespeople, professionals, and artisans across Nigeria and South Africa.
+A premium React.js landing website for **Logipay**, a marketplace connecting clients with skilled tradespeople, professionals, and artisans across Nigeria and South Africa.
 
 ---
 
@@ -13,7 +13,7 @@ A premium React.js landing website for **Chrafty**, a marketplace connecting cli
 
 ```bash
 # 1. Navigate into the project folder
-cd chrafty
+cd Logipay
 
 # 2. Install dependencies
 npm install
@@ -43,7 +43,7 @@ npm run preview
 ## 📁 Project Structure
 
 ```
-chrafty/
+Logipay/
 ├── public/
 │   └── favicon.svg
 ├── src/

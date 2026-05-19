@@ -22,11 +22,11 @@ const clientSteps = [
 ];
 
 const artisanSteps = [
-  { icon: UserCheck, title: 'Register to Join', desc: 'Submit your application with your trade details, ID, and any relevant certifications on the Chrafty App. It takes just a few minutes.' },
+  { icon: UserCheck, title: 'Register to Join', desc: 'Submit your application with your trade details, ID, and any relevant certifications on the Logipay App. It takes just a few minutes.' },
   { icon: ShieldCheck, title: 'Get Verified', desc: 'Our team reviews your documents, calls your references, and verifies your credentials within 24-48 hours. Once approved, you\'re live.' },
   { icon: FileText, title: 'Set Up Your Profile', desc: 'Build a compelling profile: upload your portfolio, set your service area, list your specialisations, and set competitive rates.' },
   { icon: MessageSquare, title: 'Browse & Bid on Jobs', desc: 'See all relevant jobs posted near you. Send personalised, detailed quotes that showcase your expertise and professionalism.' },
-  { icon: CheckCircle, title: 'Deliver Quality Work', desc: 'Show up on time, communicate clearly, and do great work. Your reputation is everything — and Chrafty helps you build it.' },
+  { icon: CheckCircle, title: 'Deliver Quality Work', desc: 'Show up on time, communicate clearly, and do great work. Your reputation is everything — and Logipay helps you build it.' },
   { icon: TrendingUp, title: 'Get Paid & Grow', desc: 'Receive payment within 24 hours of completion. Collect five-star reviews. Grow your client base every single week.' },
 ];
 
@@ -45,7 +45,7 @@ export default function HowItWorksPage() {
               Everything You Need to <span className="text-brand-orange">Know</span>
             </h1>
             <p className="text-xl text-slate-300 leading-relaxed font-body">
-              Chrafty is built to make hiring and getting hired as simple, safe, and rewarding as possible — for everyone.
+              Logipay is built to make hiring and getting hired as simple, safe, and rewarding as possible — for everyone.
             </p>
           </motion.div>
         </div>
@@ -60,7 +60,7 @@ export default function HowItWorksPage() {
           <div className="text-center mb-14">
             <SectionLabel>For Clients</SectionLabel>
             <h2 className="section-title mb-4 dark:text-white">Hire a Trusted Artisan in 6 Easy Steps</h2>
-            <p className="section-subtitle mx-auto font-body">From posting a job to confirming completion, Chrafty protects you every step of the way.</p>
+            <p className="section-subtitle mx-auto font-body">From posting a job to confirming completion, Logipay protects you every step of the way.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {clientSteps.map((step, i) => {

@@ -5,8 +5,8 @@ import { Card, Badge } from '../components/ui/index.jsx';
 
 const contactInfo = [
   { icon: MapPin, label: 'Our Office', value: 'Onikoko, 16 Olujide Somolu street\nAbeokuta Ogun State, Nigeria', color: 'bg-orange-50 text-brand-orange' },
-  { icon: Phone, label: 'Phone', value: '+234 800 CHRAFTY\n+234 800 247 2389', color: 'bg-blue-50 text-blue-600' },
-  { icon: Mail, label: 'Email', value: 'hello@chrafty.com\nsupport@chrafty.com', color: 'bg-green-50 text-green-600' },
+  { icon: Phone, label: 'Phone', value: '+234 800 Logipay\n+234 800 247 2389', color: 'bg-blue-50 text-blue-600' },
+  { icon: Mail, label: 'Email', value: 'hello@Logipay.com\nsupport@Logipay.com', color: 'bg-green-50 text-green-600' },
 ];
 
 const subjects = ['General Enquiry', 'Partnership', 'Technical Support', 'Press & Media', 'Artisan Application', 'Report an Issue', 'Other'];
@@ -41,74 +41,12 @@ export default function ContactPage() {
 
   return (
     <div className="page-wrapper">
-      {/* Hero */}
-      <section className="bg-brand-navy relative overflow-hidden py-28 px-4">
-        <div className="absolute inset-0 bg-hero-pattern opacity-40" />
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-brand-orange/10 rounded-full blur-3xl" />
-        <div className="relative z-10 max-w-3xl mx-auto text-center">
-          <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }}>
-            <Badge variant="orange" className="mb-6">Get in Touch</Badge>
-            <h1 className="text-5xl sm:text-6xl font-display font-black text-white mb-6">
-              We'd Love to <span className="text-brand-orange">Hear From You</span>
-            </h1>
-            <p className="text-xl text-slate-300 leading-relaxed font-body">
-              Whether you have a question, partnership idea, or just want to say hello — our team is here and ready to respond.
-            </p>
-          </motion.div>
-        </div>
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 60" fill="none"><path d="M0 60L1440 60L1440 30C1200 60 960 0 720 20C480 40 240 60 0 30Z" fill="white" className="dark:fill-navy-900" /></svg>
-        </div>
-      </section>
+
 
       <section className="section-padding bg-white dark:bg-navy-900">
         <div className="container-max">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Left — Info */}
-            <div className="lg:col-span-1 space-y-6">
-              {contactInfo.map((info, i) => {
-                const Icon = info.icon;
-                return (
-                  <motion.div key={i} initial={{ opacity: 0, x: -24 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}>
-                    <Card className="p-6" hover>
-                      <div className="flex items-start gap-4">
-                        <div className={`w-12 h-12 ${info.color} rounded-xl flex items-center justify-center shrink-0`}>
-                          <Icon size={20} />
-                        </div>
-                        <div>
-                          <p className="font-display font-semibold text-brand-navy dark:text-white mb-1">{info.label}</p>
-                          <p className="text-slate-500 dark:text-slate-400 text-sm font-body whitespace-pre-line">{info.value}</p>
-                        </div>
-                      </div>
-                    </Card>
-                  </motion.div>
-                );
-              })}
-
-              {/* Map placeholder */}
-              <Card className="overflow-hidden" hover={false}>
-                <div className="relative h-48 bg-slate-100 dark:bg-navy-800 flex items-center justify-center">
-                  <img src="https://picsum.photos/seed/lagos-map/400/300" alt="Lagos office location" className="w-full h-full object-cover opacity-70" />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="bg-brand-orange text-white px-4 py-2 rounded-xl font-semibold text-sm shadow-lg font-body flex items-center gap-2">
-                      <MapPin size={16} /> Nigeria
-                    </div>
-                  </div>
-                </div>
-              </Card>
-
-              {/* Social */}
-              <Card className="p-6" hover={false}>
-                <p className="font-display font-semibold text-brand-navy dark:text-white mb-4">Follow Us</p>
-                <div className="flex gap-3">
-                  {[Twitter, Linkedin, Instagram, Facebook].map((Icon, i) => (
-                    <a key={i} href="#" className="w-10 h-10 bg-slate-100 dark:bg-navy-700 rounded-xl flex items-center justify-center text-slate-500 dark:text-slate-400 hover:bg-brand-orange hover:text-white transition-all duration-150">
-                      <Icon size={16} />
-                    </a>
-                  ))}
-                </div>
-              </Card>
-            </div>
+          <div className="grid lg:grid-cols-1 gap-12">
+       
 
             {/* Right — Form */}
             <motion.div initial={{ opacity: 0, x: 24 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="lg:col-span-2">
