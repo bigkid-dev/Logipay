@@ -8,7 +8,6 @@ import { FaGooglePlay } from "react-icons/fa6";
 
 const navLinks = [
   { label: "Docs", to: "/" },
-  { label: "How It Works", to: "/how-it-works" },
   { label: "About", to: "/about" },
   { label: "Blog", to: "/blog" },
   { label: "FAQ", to: "/faq" },
